@@ -1,0 +1,17 @@
+{
+  "name": "androidDevicesServices",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react-native": "^0.18.1",
+    "react-native-android-sms": "0.0.1",
+    "react-native-push-notification": "^1.0.2",
+    "react-native-realtimemessaging-android": "^1.0.5",
+    "react-native-sms-android": "^0.2.1",
+    "socket.io-client": "^1.4.5",
+    "ws": "^1.0.1"
+  }
+}

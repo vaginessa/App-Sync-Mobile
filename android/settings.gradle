@@ -1,0 +1,13 @@
+rootProject.name = 'androidDevicesServices'
+
+include ':app'
+
+include ':react-native-sms-android'
+project(':react-native-sms-android').projectDir = new File(settingsDir, '../node_modules/react-native-sms-android/android')
+
+
+include ':react-native-contacts'
+project(':react-native-contacts').projectDir = new File(settingsDir, '../node_modules/react-native-contacts/android')
+
+include ':react-native-android-sms'
+project(':react-native-android-sms').projectDir = new File(settingsDir, '../node_modules/react-native-android-sms')
